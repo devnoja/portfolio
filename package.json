@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "npm run -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Noel Jackson",
   "license": "ISC",
+  "homepage": "https://noelnoja.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }

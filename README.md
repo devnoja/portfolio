@@ -1,2 +1,2 @@
 # portfolio website
-http://noeljackson.xyz
+https://noeljackson.xyz

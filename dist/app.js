@@ -9,12 +9,10 @@ document
 const portfolioItems = document.querySelectorAll(".portfolio__item");
 portfolioItems.forEach((portfolioItem) => {
   portfolioItem.addEventListener("mouseover", () => {
-    console.log(portfolioItem.childNodes[1].classList);
     portfolioItem.childNodes[1].classList.add("image-blur");
   });
 
   portfolioItem.addEventListener("mouseout", () => {
-    console.log(portfolioItem.childNodes[1].classList);
     portfolioItem.childNodes[1].classList.remove("image-blur");
   });
 });
@@ -26,7 +24,7 @@ backTop.addEventListener("click", function () {
 });
 
 window.addEventListener("scroll", () => {
-  if (window.pageYOffset > 600) {
+  if (window.pageYOffset > 100) {
     backTop.style.display = "block";
   } else {
     backTop.style.display = "none";

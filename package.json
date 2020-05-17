@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "Noel Jackson",
   "license": "ISC",
-  "homepage": "https://noelnoja.github.io/portfolio",
+  "homepage": "https://devnoja.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }

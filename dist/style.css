@@ -201,9 +201,9 @@ h3 {
   padding: 1rem;
 }
 
-.intro-btn .fas {
+.intro-btn .far {
   margin-left: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 /* About */
@@ -218,7 +218,7 @@ h3 {
 }
 
 .about__text {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-align: justify;
 }
 
@@ -254,7 +254,7 @@ h3 {
 
 .service p {
   text-align: justify;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 /* Projects */

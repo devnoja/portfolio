@@ -432,6 +432,10 @@ h3 {
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  .portfolio__item--background {
+    background-size: contain;
+  }
 }
 
 @media (max-width: 420px) {
@@ -483,5 +487,9 @@ h3 {
   .portfolio__wrapper {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .portfolio__item--background {
+    background-size: contain;
   }
 }
